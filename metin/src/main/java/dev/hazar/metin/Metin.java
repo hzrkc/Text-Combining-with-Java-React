@@ -7,6 +7,8 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
+
 @Document(collection = "metins")
 @Data
 @AllArgsConstructor
@@ -14,13 +16,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Metin {
     @Id
     private ObjectId id;
-    private String text1;
-    private String text2;
     private String combinedText;
 
-    public Metin (String text1, String text2, String combinedText){
-        this.text1 = text1;
-        this.text2 = text2;
+    public Metin (String combinedText){
         this.combinedText = combinedText;
     }
 }

@@ -22,16 +22,14 @@ public class MetinController {
     @PostMapping("/addTexts")
     public ResponseEntity<Metin> addMetins(@RequestBody Map<String, String> payload){
         return new ResponseEntity<Metin>(metinService.addMetins(
-                payload.get("giris1"),
-                payload.get("giris2"),
                 payload.get("cikti")),
                 HttpStatus.OK);
     }
 
     @PostMapping("/combineTexts")
-    public ResponseEntity<Map<Integer, String>> combineMetins(@RequestBody Map<Integer, String> payload){
+    public ResponseEntity<String> combineMetins(@RequestBody Map<Integer, String> payload){
 
-        return new ResponseEntity<Map<Integer, String>>(metinService.combineMetins
+        return new ResponseEntity<String>(metinService.combineMetins
                 (payload), HttpStatus.OK);
     }
 }
