@@ -54,16 +54,6 @@ public class MetinService {
                 }
                 result.append(targetArray[a].substring(b-1));
         }
-
-        /*for (int i = 0; i < targetArray.length; i++) {
-            String[] words = targetArray[i].split(" ");
-
-            for (int j = 0; j < words.length; j++) {
-                if (!result.toString().contains(words[j])) {
-                    result.append(words[j]).append(" ");
-                }
-            }
-        }*/
         endTime = System.nanoTime();
 
         Double fark = (((double) (endTime - startTime)) / 1000000);
@@ -72,7 +62,6 @@ public class MetinService {
 
         result.append(" | Çalışma Süresi: " + sure + " ms");
         String output = result.toString().trim();
-
 
         return output;
     }
