@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Service
@@ -21,9 +22,8 @@ public class MetinService {
         return metin;
     }
 
-    public String combineMetins(String giris1, String giris2){
-        String combinedText = "çıktı test deneme";
-        return combinedText;
+    public Map<Integer, String> combineMetins(Map<Integer, String> payload){
+        return payload;
     }
 
 }

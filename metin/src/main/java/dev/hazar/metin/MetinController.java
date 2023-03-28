@@ -29,10 +29,9 @@ public class MetinController {
     }
 
     @PostMapping("/combineTexts")
-    public ResponseEntity<String> combineMetins(@RequestBody Map<String, String> payload){
-        return new ResponseEntity<String>(metinService.combineMetins(
-                payload.get("giris1"),
-                payload.get("giris2")),
-                HttpStatus.OK);
+    public ResponseEntity<Map<Integer, String>> combineMetins(@RequestBody Map<Integer, String> payload){
+
+        return new ResponseEntity<Map<Integer, String>>(metinService.combineMetins
+                (payload), HttpStatus.OK);
     }
 }
