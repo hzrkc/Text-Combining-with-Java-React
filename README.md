@@ -4,6 +4,13 @@
 
 Bu projede, kitap, dergi vb. gibi metinlerden elde edilen cümleler/kelimeler arasındaki benzerlik, frekans gibi özelliklerin bulunması, metinlerin birleştirip birleştirilmeyeceğine karar verilmesi ve elde edilen verilerden karakter tabanlı cümlelerin/kelimelerin birleştirilmesi işlemleri gerçekleştirilmektedir. Bu işlemlerin yapılması için gerekli algoritma geliştirilmiş ve projede sunulmaktadır. Amaç: Bu projede iki veya daha fazla metnin uygun bir şekilde birleştirilmesi problemi için yeni algoritmalar geliştirmek amaçlanmaktadır. Devamında bunları görsel bir arayüzle sunmaktayız. Geliştirdiğiniz algoritmanın performans özelliklerini ve çalışma sürelerini farklı girdilerde karşılaştırıyoruz. Metin birleştirme işlemleri için JAVA dili, veri tabanı MongoDB (NoSQL), Web arayüzü için ise React kullanılmaktadır.
 
+#PROJE GÖRSELLERİ
+
+![First Look](https://github.com/hzrkc/Text-Combining-with-Java-React/blob/main/images/1.png?raw=true)
+![First Look](https://github.com/hzrkc/Text-Combining-with-Java-React/blob/main/images/2.png?raw=true)
+![First Look](https://github.com/hzrkc/Text-Combining-with-Java-React/blob/main/images/3.png?raw=true)
+![First Look](https://github.com/hzrkc/Text-Combining-with-Java-React/blob/main/images/4.png?raw=true)
+
 # II.İçerik
 
 ## A.Proje Tanımı ![](RackMultipart20230328-1-oo5tib_html_c738ee6fe05c6fa6.png) 
